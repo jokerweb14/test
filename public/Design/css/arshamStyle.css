@@ -1,0 +1,17 @@
+﻿a#exit {
+    width: 100%;
+    display: inline-block;
+    color: #444;
+padding: 3px 20px;
+}
+.ltr {
+    direction: ltr;
+}
+/*input[data-val-required]:not(.nored), select[data-val-required]:not(.nored), textarea[data-val-required]:not(.nored) {
+    border: 1px solid #fc8d8b;
+   
+}*/
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    
+    max-height: unset;
+}

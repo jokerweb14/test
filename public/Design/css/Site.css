@@ -1,0 +1,132 @@
+﻿body {
+}
+.popover{
+    right:25%;
+}
+.note-editor {
+    min-height: 200px;
+}
+.alert-success {
+    background: #53e69d;
+    color: #fff;
+    border-color: #53e69d;
+    padding: 8px 5px;
+}
+.btn{
+    margin-bottom:10px;
+}
+.dataTables_filter input {
+    border: 1px solid rgba(88, 94, 99, 0.31);
+}
+.btn-group a{
+    /*padding: 10px 1px;*/
+}
+.btn-add{
+    width:100px;
+}
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    background-color: #000;
+}
+dd, dt {
+    margin: 2px 0;
+    padding: 5px;
+   
+}
+dt {
+    
+    background-color: rgba(143, 193, 235, 0.31);
+}
+
+input[data-val-required], select[data-val-required], textarea[data-val-required], input[data-val-requiredIf] {
+    border: 1px solid #a94442;
+}
+.txt-date{
+    direction:ltr;
+}
+#side-menu ul > li > a.active {
+    background: #ff7676;
+    color: #ffffff;
+    font-weight: 500;
+   
+}
+.mdpersianDateTime{
+    direction:ltr;
+}
+canvas {
+    max-width: 100%
+}
+
+.img-preview-frame {
+    max-width: 200px
+}
+.ltr{
+    direction:ltr;
+}
+.img-container {
+    margin-bottom: 1rem;
+    max-height: 497px;
+    min-height: 200px;
+}
+.result-1, .resultCom-1 {
+    background-color: #eff80a;
+    color: #000;
+}
+.result-2, .resultCom-3 {
+    background-color: #09ca13;
+    color: #fff;
+}
+.result-3, .resultCom-2{
+    background-color: #ef1f1f;
+    color: #fff;
+}
+.check-1 {
+    background-color: #eff80a;
+    color: #000;
+}
+
+.check-2 {
+    background-color: #09ca13;
+    color: #fff;
+}
+
+.check-3 {
+    background-color: #ef1f1f;
+    color: #fff;
+}
+
+.read-False {
+    color: #ef1f1f;
+}
+@media (min-width: 768px) {
+    .img-container {
+        min-height: 497px;
+    }
+}
+.checkbox input[type="checkbox"]{
+    opacity:1;
+}
+ul.thumbnails.image_picker_selector li {
+    float: right;
+}
+
+    ul.thumbnails.image_picker_selector li .thumbnail.selected {
+        background: #ff7676;
+    }
+@media screen and (max-width:600px) {
+    .sttabs nav a span {
+        display: block;
+        font-size: 6px;
+    }
+}
+@media screen and (max-width:940px) {
+    .sttabs nav a span {
+        display: block;
+        font-size: 10px;
+    }
+}
